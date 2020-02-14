@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="97355d78-b060-4ab2-9fda-9e9da7576326" name="api" url="http://140.143.223.91">
+        <fileTransfer host="140.143.223.91" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/www/wwwroot/app-api/rxl" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
