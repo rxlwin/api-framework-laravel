@@ -53,7 +53,7 @@ class ParamExport
 
     public static function getLocalRoute()
     {
-        $route = request()->route()->uri();
+        $route = request()->url();
         return $route;
     }
 }
