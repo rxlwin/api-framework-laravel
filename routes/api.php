@@ -18,3 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/test/rxl', 'Test\RxlController@main');
+
+//ID发号器对外提供服务
+Route::get('/identity', 'App\IDController@getID');
